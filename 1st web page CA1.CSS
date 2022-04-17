@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 33%;
+    border-radius: 50px;
+
+}
+.nav-list{
+    width: 50%;
+   
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 34px;
+     
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: blue;
+
+}
+.rightnav{
+    
+    width: 50%;
+    text-align: right;
+    padding: 5px 23px;
+
+}
+#Search{
+    padding: 5px;
+    font-size: 20px;
+    border: 3px solid brown;
+    border-radius: 10px;
+}
+.background{
+ background-color:lightslategray;
+    background: rgba(0,0,0,0.7)url(..img/img.bground.jpg);
+    background-size:cover;
+    background-blend-mode:darken;
+}
+.firstone{
+    height: 100vh;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    
+    
+}
+.good{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     height: 80%;
+}
+.two{ width: 50%; 
+}
+.two img{
+    
+    border: 5px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+.goodone{
+    font-size: 55px;
+    color: white;
+}
+.goodtwo{
+    font-size: 30px;
+    color: white;
+}
+
+.but{
+    padding: 8px ;
+    margin: 7px;
+    border: 5px solid lightskyblue;
+    border-radius: 15px;
+    font-size: 15px;
+
+}
+.btn-sm{
+    padding: 3px 10px;
+    vertical-align: middle;
+}
+.rhsection{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+.rhsecone{font-size: 50px;
+padding: 15px;
+}
+.rhsectwo{
+font-size: 30px;
+}
+.imgbeg{
+    border: 5px solid green;
+    
+}
+.five{
+    height: 500px; 
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+
+}
+.sec1{
+    font-size: 50px;
+    padding: 15px;
+}
+.sec2{
+    font-size: 30px;
+}
+.imgedu{
+    border: 5px solid green;
+    
+}
+.section{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+.three{
+ font-size: 50px;
+ align-items: center;
+ padding: 15px;
+}
+.four{
+    font-size: 30px;
+}
+.imgin{
+    border: 5px solid green;
+}
+.sectionad{ height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+.seven{
+font-size: 50px;
+padding: 15px;
+}
+.eight{
+font-size: 30px;
+}
+.imgad{
+    border: 5px solid green;
+}
+.reg{
+    background-color:black;
+    color: white;
+    padding: 65px;
+    font-size: 50px;
+}
+.full30{
+    padding:  15px;
+    font-size: 50px;
+}

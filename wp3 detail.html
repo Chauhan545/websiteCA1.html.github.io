@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function valid()
+{
+   var a=document.getElementById("ss").value;
+    if (isNaN(a))
+    {
+         alert("not a valid age");
+    }
+   else
+    {
+    alert("hello");
+     a=parseInt(a);
+     if(a>5 && a<=110) 
+     {
+            alert("age is valid");
+      }
+     else
+     {alert("age is not valid");}
+
+    }
+    
+}</script>
+<script>
+function fa1()
+        {
+            alert("hello! your age must be valid")
+        }
+        function fb2()
+        {
+            confirm("are you sure to submit form")
+        }
+        function fc3()
+        {
+            prompt("enter city or village name")
+            alert("hello")
+
+        }
+    </script>
+    <style>
+      form{
+        background-color:silver;
+        color:black;
+
+      }  
+    </style>
+</head>
+<body>
+    <hr color="blue">
+    <h1><center>REGISTRATION FORM</center></h1>
+<form>
+<center><label>First name:</label>
+<input type="text"name="f1"id="fnam"></center><br><br>
+<center><label>Last name:</label>
+<input type="text"name="l1"id="lnam"></center><br><br>
+<center><label>Email ID:</label>
+<input type="text"email="e1"id="enam"></center><br><br>
+
+
+<center>Enter age
+    <input type="text" id="ss">
+    <input type="button" value="check validity" onclick="valid()">
+</center>&nbsp;&nbsp;&nbsp; 
+
+<center><label>Address</label>
+<textarea name="ar" id="rrr" cols="30" rows="10"></textarea><br><br></center>
+<center><label>Select Level</label>
+<input type="checkbox">Beginer&nbsp;&nbsp;&nbsp;
+<input type="checkbox">Intermediate&nbsp;&nbsp;&nbsp;
+<input type="checkbox">Advanced&nbsp;&nbsp;&nbsp;
+</center>&nbsp;&nbsp;&nbsp;
+<center><select>
+    <label>Select Country</label>&nbsp;&nbsp;&nbsp; 
+    <option value="select Country">Country</option>&nbsp;&nbsp;&nbsp;
+    <option value="Punjab">India</option>
+    <option value="France">France</option>
+    <option value="Australia">Australia</option>
+    <option value="Germany">Germany</option>
+   </select></center>&nbsp;&nbsp;&nbsp;
+<center><label>Select Gender</label>
+<input type="radio" name="rd" id="rd">Male&nbsp;&nbsp;&nbsp;
+<input type="radio" name="rd" id="rd">Female&nbsp;&nbsp;&nbsp;
+<input type="radio" name="rd" id="rd">Other</center>&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<center><input type="submit"text="SUBMIT"></center>&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<input type="button" value="ALERT" onclick="fa1()">
+<input type="button" value="CONFIRM" onclick="fb2()">
+<input type="button" value="PROMPT" onclick="fc3()">
+</form>
+<hr color="blue">
+
+</body>
+</html>

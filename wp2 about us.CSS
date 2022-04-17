@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.kiclass{padding: 85px 105px;
+   
+    color: cornflowerblue;
+    width: 50px;
+}
+.combo{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 90%;
+    margin: auto;
+    padding: 140px;
+   background-color: lightblue;
+}
+.childimg{
+    border: 7px solid orchid;
+    border-radius: 250px;
+    
+}
+.ord{
+ font-size: 30px;
+ align-items: center;
+ padding: 25px;
+}
+.visual{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 90%;
+    margin: auto;
+    padding: 10px;
+  
+}
+.tab{
+    
+    border-radius: 250px;
+    
+}
+.vid{
+ font-size: 50px;
+ align-items: center;
+ 
+ padding: 0;
+}
+.eleven{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 90%;
+    margin: auto;
+    padding: 0px;
+  
+}
+.twe{
+    
+    border-radius: 250px;
+    
+}
+.thir{
+ font-size: 4px;
+ align-items: center;
+ 
+ max-width: 55%;
+}
+.km{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+  
+}
+.ceo{color: white;
+ font-size: 45px;
+ align-items: center;
+ padding: 60px;
+}
+
+
+
+
+
+
